@@ -1,0 +1,114 @@
+body {
+  background: #F7971E;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+  
+  background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: Assistant, sans-serif;
+  display: flex;
+  min-height: 90vh;
+}
+.login {
+  color: orange;
+  background: white;
+  margin: auto;
+  box-shadow: 
+    0px 2px 10px rgba(0,0,0,0.2), 
+    0px 10px 20px rgba(0,0,0,0.3), 
+    0px 30px 60px 1px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  height: 450px;
+  width: 300px;
+  padding: 50px;
+}
+.login .head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .head .company {
+  font-size: 2.2em;
+  color: linear-gradient(to right, #FFD200, #F7971E);
+}
+.login .msg {
+  text-align: center;
+  padding-bottom: 20%;
+  color: linear-gradient(to right, #FFD200, #F7971E);
+}
+.login .form input[type=text].text {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px rgb(255, 153, 0);
+  width: 100%;
+  color: rgb(255, 153, 0);
+  font-size: 1em;
+  outline: none;
+  
+}
+.login .form .text::placeholder {
+  color: rgb(255, 153, 0);
+  
+}
+.login .form input[type=password].password {
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px rgb(255, 153, 0);
+  width: 100%;
+  color: rgb(255, 153, 0);
+  font-size: 1em;
+  outline: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-top: 10%;
+}
+.login .form .password::placeholder {
+  color: rgb(255, 153, 0);
+}
+.login .form .btn-login {
+  background: none;
+  text-decoration: none;
+  display: inline;
+  color: rgb(255, 153, 0);
+  box-shadow: 0px 0px 0px 2px rgb(255, 153, 0);
+  border-radius: 3px;
+  padding: 5px 3.5em;
+  transition: 0.5s;
+  
+  
+  
+}
+.rightbtn{
+  float: right;
+}
+.login .form .btn-login:hover {
+  background: rgb(255, 153, 0);
+  color: white;
+  transition: 0.5s;
+}
+.login .forgot {
+  text-decoration: none;
+  color: rgb(255, 153, 0);
+  
+  padding-top: 10%;
+  display: inline-block;
+  
+}
+.login .forgot::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(255, 153, 0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.login.forgot :hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.btni {
+  padding-top: 15%;
+}

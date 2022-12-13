@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Attendance Dashboard | By Code Info</title>
+  <link rel="stylesheet" href="dashboard.css" />
+  <link rel="stylesheet" href="dashboard.php" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="#" class="logo">
+          <img src="C:\Users\gundu\Downloads\admin.png">
+          <span class="nav-item">Admin</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-menorah"></i>
+          <span class="nav-item">Dashboard</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-user"></i>
+          <span class="nav-item">Faculty</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-database"></i>
+          <span class="nav-item">Other Activites</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-chart-bar"></i>
+          <span class="nav-item">Attendance</span>
+        </a></li>
+        <li><a href="#">
+          <i class="fas fa-cog"></i>
+          <span class="nav-item">Setting</span>
+        </a></li>
+
+        <li><a href="#" class="logout">
+          <i class="fas fa-sign-out-alt"></i>
+          <span class="nav-item">Log out</span>
+        </a></li>
+      </ul>
+    </nav>
+
+
+    <section class="main">
+      <div class="main-top">
+        <h1>Attendance</h1>
+        <i class="fas fa-user-cog"></i>
+      </div>
+      <div class="users">
+        <div class="card">
+          <img src="C:\Users\gundu\Downloads\venky.png">
+          <h4>venkatesh</h4>
+          <p>cse</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>85%</span></td>
+                <td><span>87%</span></td>
+              </tr>
+              <tr>
+                <td>Month</td>
+                <td>Sem</td>
+              </tr>
+            </table>
+          </div>
+          <button>Profile</button>
+        </div>
+        <div class="card">
+            <img src="C:\Users\gundu\Downloads\sriram.png">
+          <h4>sriram</h4>
+          <p>CSE</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>82%</span></td>
+                <td><span>85%</span></td>
+              </tr>
+              <tr>
+                <td>Month</td>
+                <td>Sem</td>
+              </tr>
+            </table>
+          </div>
+          <button>Profile</button>
+        </div>
+        <div class="card">
+            <img src="C:\Users\gundu\Downloads\raghu.png">
+          <h4>raghunandhan</h4>
+          <p>cse</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>94%</span></td>
+                <td><span>92%</span></td>
+              </tr>
+              <tr>
+                <td>Month</td>
+                <td>Sem</td>
+              </tr>
+            </table>
+          </div>
+          <button>Profile</button>
+        </div>
+        <div class="card">
+            <img src="C:\Users\gundu\Downloads\chaitu.png">
+          <h4>chaitanya</h4>
+          <p>cse</p>
+          <div class="per">
+            <table>
+              <tr>
+                <td><span>85%</span></td>
+                <td><span>82%</span></td>
+              </tr>
+              <tr>
+                <td>Month</td>
+                <td>Sem</td>
+              </tr>
+            </table>
+          </div>
+          <button>Profile</button>
+        </div>
+      </div>
+
+      <section class="attendance">
+        <div class="attendance-list">
+          <h1>Attendance List</h1>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Roll No</th>
+                <th>Depart</th>
+                <th>Date</th>
+                
+                <th>Details</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>01</td>
+                <td>chandini</td>
+                <td>21A31A0567</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                
+                <td><button>View</button></td>
+              </tr>
+              <tr class="active">
+                <td>02</td>
+                <td>manaswini</td>
+                <td>21A31A0568</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>sri harisha</td>
+                <td>21A31A0569</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>santhoshi</td>
+                <td>21A31A0570</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>05</td>
+                <td>aishwarya</td>
+                <td>21A31A0571</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>06</td>
+                <td>bhavitha</td>
+                <td>21A31A0572</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>07</td>
+                <td>vaishnavi</td>
+                <td>21A31A0573</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>08</td>
+                <td>G.priya</td>
+                <td>21A31A0574</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>09</td>
+                <td>pojitha</td>
+                <td>21A31A0575</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>varshitha</td>
+                <td>21A31A0576</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>usha sri</td>
+                <td>21A31A0577</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>divya sri</td>
+                <td>21A31A0578</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>meghana chekka</td>
+                <td>21A31A0579</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>saranya</td>
+                <td>21A31A0580</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>mahalakshmi</td>
+                <td>21A31A0581</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>mayukha</td>
+                <td>21A31A0582</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>praharshini</td>
+                <td>21A31A0583</td>
+                <td>Design</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>parimala</td>
+                <td>21A31A0584</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>gayatri</td>
+                <td>21A31A0585</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>sanjeevi</td>
+                <td>21A31A0586</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>harshitha</td>
+                <td>21A31A0587</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>22</td>
+                <td>nikitha</td>
+                <td>21A31A0588</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>ramaswathi</td>
+                <td>21A31A0589</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>24</td>
+                <td>navya nalini</td>
+                <td>21A31A0590</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>25</td>
+                <td>shanthi meghana</td>
+                <td>21A31A0591</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>26</td>
+                <td>tejaswini</td>
+                <td>21A31A0592</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>27</td>
+                <td>sumanvitha</td>
+                <td>21A31A0593</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>28</td>
+                <td>navya sri</td>
+                <td>21A31A0594</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>29</td>
+                <td>akshitha</td>
+                <td>21A31A0595</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>30</td>
+                <td>tanmayi</td>
+                <td>21A31A0596</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>31</td>
+                <td>renuka</td>
+                <td>21A31A0597</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>32</td>
+                <td>neha chandrika</td>
+                <td>21A31A0598</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>33</td>
+                <td>reshma chowdary</td>
+                <td>21A31A0599</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>34</td>
+                <td>sowjanya</td>
+                <td>21A31A05A0</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr>
+                <td>35</td>
+                <td>thanusha</td>
+                <td>21A31A05A1</td>
+                <td>cse-b</td>
+                <td>03-24-22</td>
+                <td><button>View</button></td>
+              </tr>
+              
+              
+              <!-- <tr >
+                <td>05</td>
+                <td>Salina</td>
+                <td>Coding</td>
+                <td>03-24-22</td>
+                <td>9:00AM</td>
+                <td>4:00PM</td>
+                <td><button>View</button></td>
+              </tr>
+              <tr >
+                <td>06</td>
+                <td>Tara Smith</td>
+                <td>Testing</td>
+                <td>03-24-22</td>
+                <td>9:00AM</td>
+                <td>4:00PM</td>
+                <td><button>View</button></td>
+              </tr> -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </section>
+  </div>
+  <footer>
+
+  </footer>
+</body>
+</html>

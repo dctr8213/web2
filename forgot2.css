@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+h1{
+    position: relative;
+    
+}
+.container{
+    padding-top: 5%;
+}
+.forgotpassword{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    background-color: white;
+    box-sizing: content-box;
+    display: block;
+    margin-top: 20%;
+    margin: auto;    
+    padding: 50px;
+    box-shadow: 
+    0px 2px 10px rgba(0,0,0,0.2), 
+    0px 10px 20px rgba(0,0,0,0.3), 
+    0px 30px 60px 1px rgba(0,0,0,0.5);
+    height: 450px;
+    width: 300px;
+    border-radius: 8px;
+    
+    
+
+}
+.password.form input[type=password].password{
+  border: none;
+  background: none;
+  box-shadow: 0px 2px 0px 0px rgb(255, 153, 0);
+  width: 100%;
+  color: rgb(255, 153, 0);
+  font-size: 1em;
+  outline: none;
+
+}
+.confirmpassword{
+    position: relative;
+    
+}
+.resetpassword{
+    position: relative;
+    padding-top: 36%;
+
+}

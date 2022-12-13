@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    background-size: cover;
+}
+.forgotpassword{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+}
+.emailinput{
+    position: absolute;
+    top:48%;
+    left: 44%;
+}
+.submit{
+    position: absolute;
+    top:58%;
+    left: 45%;
+}

@@ -1,0 +1,72 @@
+body{
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    background-size: cover; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.container{
+  color: orange;
+  background: white;
+  margin: auto;
+  box-shadow: 
+    0px 2px 10px rgba(0,0,0,0.2), 
+    0px 10px 20px rgba(0,0,0,0.3), 
+    0px 30px 60px 1px rgba(0,0,0,0.5);
+  border-radius: 8px;
+  height: 80vh;
+  width: 100vh;
+  padding: 50px;
+  
+}
+.innerdiv{
+    position: relative;
+    
+}
+
+h1{
+    font-family: sans-serif;
+}
+.parent{
+    position: relative;
+}
+.chlid{
+    position: absolute;
+}
+.signuptext{
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+.email{
+    position: relative;
+    top: 10%;
+    left: 5%;
+}
+.container.username{
+    position: relative;
+    top: 10%;
+    
+    padding-left: 95%;
+}
+.name{
+    position: relative;
+    top: 20%;
+    left: 5%;
+}
+.password{
+    position: relative;
+    top: 30%;
+    left: 5%;
+}
+.confirmpassword{
+    position: relative;
+    top: 35%;
+    left: 5%;
+}
+.submit{
+    position: relative;
+    top: 30%;
+    padding-right: 50%;
+}
